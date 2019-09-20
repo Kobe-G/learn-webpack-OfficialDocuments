@@ -6,9 +6,8 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         index: './src/index.js',
-        print: './src/math.js',
     },
-    mode: "development",
+    mode: "production",
     devtool:'inline-source-map',//source map
     output: {
         filename: '[name].js',
